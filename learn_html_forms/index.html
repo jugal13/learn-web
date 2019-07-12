@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+  <form name="sample" autocomplete="on" method="GET" novalidate>
+    <br />
+    <br />
+    <input type="button" value="button" />
+    <br />
+    <br />
+    <input type="checkbox" name="check1" />One<br />
+    <input type="checkbox" name="check2" />Two<br />
+    <input type="checkbox" name="check3" checked />Three<br />
+    <br />
+    <br />
+    <input type="color" id="colorpicker" />
+    <br />
+    <br />
+    Date: <input type="date" placeholder="yyyy-mm-dd" />
+    <br />
+    <br />
+    Date Time: <input type="datetime" placeholder="yyyy-mm-ddThh:mm" />
+    <br />
+    <br />
+    Date Time Local: <input type="datetime-local" placeholder="yyyy-mm-ddThh:mm" />
+    <br />
+    <br />
+    Email: <input type="email" placeholder="example@domain.com" required  />
+    <br />
+    <br />
+    <input type="file" accept="image/png, image/jpeg" />
+    <br />
+    <br />
+    Hidden Field: <input type="hidden" name="key" value="123" />
+    <br />
+    <br />
+    Image Input: <input type="image" src="assets/IMG_1.png" width="100" height="50" />
+    <br />
+    <br />
+    Month: <input type="month" placeholder="yyyy-mm" />
+    <br />
+    <br />
+    Number: <input type="number" min="0" max="100" placeholder="0" />
+    <br />
+    <br />
+    <input type="password" placeholder="password" minlength="8" required />
+    <br />
+    <br />
+    <input type="radio" name="test" />Radio1
+    <br />
+    <input type="radio" name="test" />Radio2
+    <br />
+    <br />
+    0<input type="range" />100
+    <br />
+    <br />
+    <input type="reset" />
+    <br />
+    <br />
+    Search: <input type="search" placeholder="query" />
+    <br />
+    <br />
+    <input type="submit" />
+    <br />
+    <br />
+    Telephone Number: <input type="tel" placeholder="555-555-5555" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" />
+    <br />
+    <br />
+    Text Field: <input type="text" />
+    <br />
+    <br />
+    <input type="time" placeholder="hh:mm" />
+    <br />
+    <br />
+    <input type="url" placeholder="https://example.com"
+       pattern="https://.*" />
+    <br />
+    <br />
+    <input type="week" placeholder="yyyy-Wnn"/>
+    <br />
+    <br />
+    <label for="pet-select">Choose a pet:</label>
+    <select id="pet-select">
+      <option value="">--Please choose an option--</option>
+      <option value="dog">Dog</option>
+      <option value="cat">Cat</option>
+      <option value="hamster">Hamster</option>
+      <option value="parrot">Parrot</option>
+      <option value="spider">Spider</option>
+      <option value="goldfish">Goldfish</option>
+    </select>
+    <br />
+    <br />
+    <label for="ice-cream-choice">Choose a flavor:</label>
+    <input list="ice-cream-flavors" id="ice-cream-choice" name="ice-cream-choice" />
+    <datalist id="ice-cream-flavors">
+      <option value="Chocolate">
+      <option value="Coconut">
+      <option value="Mint">
+      <option value="Strawberry">
+      <option value="Vanilla">
+    </datalist>
+    <br>
+    <br>
+    <textarea id="story" name="story" rows="5" cols="33">
+    </textarea>
+  </form>
+</body>
+</html>
