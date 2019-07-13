@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <!-- NAV TAG -->
+  <nav>
+    <ul style="display: flex; list-style-type: none;">
+      <li style=" padding: 10px;">Nav List 1</li>
+      <li style=" padding: 10px;">Nav List 2</li>
+      <li style=" padding: 10px;">Nav List 3</li>
+      <li style=" padding: 10px;">Nav List 4</li>
+    </ul>
+  </nav>
+  <!-- MAIN TAG -->
+  <main>
+    <!-- SECTION TAG -->
+    <section>Section 1</section>
+    <section>
+      <!-- ARTICLE TAG -->
+      <article>
+        <!-- HEADER TAG -->
+        <header>Header for Article</header>
+        <p>Article Body</p>
+        <!-- FOOTER TAG -->
+        <footer>Footer for Article</footer>
+      </article>
+    </section>
+    <section>Section 3</section>
+    <section>
+      <h3>Canvas</h3>
+      <canvas id="myCanvas" width="80px" height="80px"></canvas>
+      <script>
+        var canvas = document.getElementById("myCanvas");
+        var ctx = canvas.getContext("2d");
+        ctx.fillStyle = "#FF0000";
+        ctx.fillRect(0, 0, 80, 80);
+      </script>
+    </section>
+    <section style="display: flex; flex-direction: column;">
+      <h3>SVG</h3>
+      <svg width="80px" height="80px">
+        <circle cx="0" cy="0" r="40" stroke="black" stroke-width="4" fill="red" />
+      </svg>
+      <svg width="200" height="100">
+        <rect width="200" height="100" style="fill:rgb(0,0,255); stroke-width:10; stroke:rgb(0,0,0)" />
+      </svg>
+      <svg width="200" height="200">
+        <rect x="5" y="20" rx="50" ry="50" width="150" height="150" style="fill: rgba(251, 255, 0, 0.932); stroke: black; stroke-width: 5; opacity: 0.7" />
+      </svg>
+      <svg width="300" height="200">
+        <polygon points="5, 25 100, 50 50, 65 25, 100" style="fill:lime; stroke: purple; stroke-width: 5; fill-rule: evenodd;" />
+      </svg>
+    </section>
+  </main>
+
+</body>
+</html>
