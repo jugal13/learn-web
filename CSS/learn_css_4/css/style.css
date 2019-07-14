@@ -1,0 +1,23 @@
+.u1 {
+  list-style-type: circle;
+}
+
+.u2 {
+  list-style-type: disc;
+}
+
+.u3 {
+  list-style-type: square;
+}
+
+.o1 {
+  list-style-type: normal;
+}
+
+.o2 {
+  list-style-type: upper-roman;
+}
+
+.o3 {
+  list-style-type: decimal-leading-zero;
+}

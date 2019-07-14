@@ -27,7 +27,7 @@
 
 ## CSS1
 
-Backgrounds
+#### Backgrounds
 
     background-color
     background-image
@@ -77,3 +77,34 @@ Backgrounds
     min-height
     max-width
     max-height
+
+## CSS 3
+
+#### Text
+
+    color
+    direction
+    letter-spacing
+    line-height
+    text-align
+    text-decoration
+    text-shadow
+    vertical-shadow
+    vertical-align
+    word-spacing
+
+#### Fonts
+
+    font-family
+    font-style
+    font-size
+    font-variant
+    font-weight
+
+## CSS 4
+
+#### List Style
+
+    list-style-type
+    list-style-position
+    list-style-image
