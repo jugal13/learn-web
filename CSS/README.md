@@ -108,3 +108,36 @@
     list-style-type
     list-style-position
     list-style-image
+
+## CSS 5
+
+#### Table
+
+table,th,td
+
+    border
+    border-collapse
+    
+table
+
+    width
+    height
+
+th, td 
+
+    padding
+
+## CSS 6
+
+#### Display
+
+Display
+
+    block
+    inline
+    inline-block
+    none
+
+Visibility
+
+    hidden
