@@ -1,0 +1,23 @@
+#grad1 {
+  height: 200px;
+  background-image: linear-gradient(red, yellow);
+}
+
+#grad2 {
+  height: 200px;
+  background-image: linear-gradient(
+    red,
+    orange,
+    yellow,
+    green,
+    blue,
+    indigo,
+    violet
+  );
+}
+
+#grad3 {
+  height: 150px;
+  width: 200px;
+  background-image: radial-gradient(circle, red, yellow, green);
+}

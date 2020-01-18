@@ -8,6 +8,19 @@
 
 ## CSS
 
+1. [Background](CSS/learn_css_1)
+2. [Box Model (Padding,Margin,Border,Width,Height)](CSS/learn_css_2)
+3. [Font and Text Style](CSS/learn_css_3)
+4. [List Style](CSS/learn_css_4)
+5. [Table Style](CSS/learn_css_5)
+6. [Display Style](CSS/learn_css_6)
+7. [Postion Style](CSS/learn_css_7)
+8. [Overflow Style](CSS/learn_css_8)
+9. [Pseudo Class](CSS/learn_css_9)
+10. [Gradients](CSS/learn_css_10)
+11. [Shadow Style](CSS/learn_css_11)
+12. [Transform Style](CSS/learn_css_12)
+
 ## JS
 
 1. [Analog Clock](JS/analog-clock)
