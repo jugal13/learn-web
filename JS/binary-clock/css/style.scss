@@ -1,0 +1,92 @@
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  background-color: #111111;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+
+  .container {
+    align-self: center;
+
+    .card {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 10px;
+      margin: 10px;
+      -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 1);
+      -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 1);
+      box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 1);
+
+      .digital-clock {
+        color: #17d4feff;
+        padding: 5px;
+
+        .digital-hour,
+        .digital-minute,
+        .digital-second {
+          font-size: 3em;
+        }
+
+        .digital-separator {
+          font-size: 3em;
+          animation: blinker 1s ease-in infinite;
+        }
+      }
+
+      .binary-clock {
+        color: #17d4feff;
+        font-size: 1.25em;
+        padding: 5px;
+
+        .binary-hour,
+        .binary-minute,
+        .binary-second {
+          -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 1);
+          -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 1);
+          box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 1);
+          padding: 5px;
+          margin: 10px;
+          display: flex;
+          width: 400;
+          align-items: center;
+
+          &:hover {
+            -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 1);
+            -moz-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 1);
+            box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 1);
+          }
+
+          .bin {
+            margin: 10px;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background-color: white;
+          }
+        }
+      }
+    }
+  }
+}
+
+@keyframes blinker {
+  0% {
+    color: #17d4fe00;
+  }
+  50% {
+    color: #17d4feff;
+  }
+  100% {
+    color: #17d4fe00;
+  }
+}

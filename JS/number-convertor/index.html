@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <div class="card">
+          <form name="convertor" id="convertor">
+            <div class="form-group">
+              <label for="base">Enter Base/Radix</label>
+            </div>
+            <input list="radix" id="base" />
+            <datalist id="radix">  
+              <option value="2">Binary</option>
+              <option value="8">Octal</option>
+              <option value="10">Decimal</option>
+              <option value="16">Hexadecimal</option>
+            </datalist>
+            <div class="form-group">
+              <label for="num">Enter Number</label>
+            </div>
+            <input type="text" id="num" />
+            <div class="form-group">
+              <button type="button" onclick="calculate('2')">Binary</button>
+              <button type="button" onclick="calculate('8')">Octal</button>
+              <button type="button" onclick="calculate('10')">Decimal</button>
+              <button type="button" onclick="calculate('16')">Hexadecimal</button>
+            </div>
+            <div class="out">
+              Output: <output name="result" id="result"></output>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

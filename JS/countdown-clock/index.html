@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <div class="card">
+          <form name="countdown" id="countdown">
+            <div class="form-group">
+              <label for="inDate">Enter Date</label>
+              <input type="datetime-local" id="inDate" />
+            </div>
+            <div class="form-group">
+              <button type="button" onclick="calculate()">
+                Countdown
+              </button>
+            </div>
+            <div class="result-group">
+              <div class="title">Countdown</div>
+              <div class="values">
+                <div class="days" id="dd">0</div>
+                <div class="hours" id="hh">0</div>
+                <div class="minutes" id="mm">0</div>
+                <div class="seconds" id="ss">0</div>
+              </div>
+              <div class="labels">
+                <div class="label">Days</div>
+                <div class="label">Hours</div>
+                <div class="label">Minutes</div>
+                <div class="label">Seconds</div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

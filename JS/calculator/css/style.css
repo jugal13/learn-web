@@ -1,0 +1,164 @@
+html,
+body {
+  height: 100vh;
+  width: 100vw;
+  padding: 0;
+  margin: 0;
+  background-color: #111111;
+}
+
+.wrapper {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.wrapper .container {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.wrapper .container .card {
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.75);
+}
+
+.wrapper .container .card .result {
+  width: 280px;
+  height: 75px;
+  padding: 5px 10px;
+  margin: 5px 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -ms-flex-line-pack: end;
+      align-content: flex-end;
+}
+
+.wrapper .container .card .result .res-content {
+  color: white;
+  font-size: 2.5em;
+}
+
+.wrapper .container .card .row {
+  -ms-flex-item-align: center;
+      align-self: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wrapper .container .card .row .btn {
+  -ms-flex-item-align: center;
+      align-self: center;
+  width: 75px;
+  height: 75px;
+  margin: 5px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wrapper .container .card .row .btn .content {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  color: white;
+  font-size: 1.5em;
+}
+
+.wrapper .container .card .row .btn2 {
+  -ms-flex-item-align: center;
+      align-self: center;
+  width: 160px;
+  height: 75px;
+  margin: 5px;
+  border-radius: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wrapper .container .card .row .btn2 .content {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  color: white;
+  font-size: 1.5em;
+}
+
+.wrapper .container .card .row .btn-lightgrey {
+  background-color: #666666;
+}
+
+.wrapper .container .card .row .btn-lightgrey:hover {
+  background-color: #888888;
+}
+
+.wrapper .container .card .row .btn-darkgrey {
+  background-color: #222222;
+}
+
+.wrapper .container .card .row .btn-darkgrey:hover {
+  background-color: #333333;
+}
+
+.wrapper .container .card .row .btn-orange {
+  background-color: orange;
+}
+
+.wrapper .container .card .row .btn-orange:hover {
+  background-color: white;
+}
+
+.wrapper .container .card .row .btn-orange:hover .content {
+  color: orange;
+}
+/*# sourceMappingURL=style.css.map */

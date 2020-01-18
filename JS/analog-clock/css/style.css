@@ -1,0 +1,416 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background-color: black;
+  height: 100vh;
+}
+
+.wrapper {
+  height: 100%;
+}
+
+.wrapper .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
+}
+
+.wrapper .container .clock {
+  -ms-flex-item-align: center;
+      align-self: center;
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+
+.wrapper .container .clock .second,
+.wrapper .container .clock .minute,
+.wrapper .container .clock .hour,
+.wrapper .container .clock .indicator {
+  position: absolute;
+  left: calc(50% - 1px);
+  width: 2px;
+  background: #f4eed7;
+  -webkit-transform-origin: bottom center;
+  transform-origin: bottom center;
+  z-index: 2;
+  border-radius: 1px;
+}
+
+.wrapper .container .clock .second {
+  height: 90px;
+  margin-top: 10px;
+  background: #4b9aaa;
+  -webkit-animation: time 60s infinite steps(60);
+  animation: time 60s infinite steps(60);
+  z-index: 3;
+}
+
+.wrapper .container .clock .minute {
+  height: 80px;
+  margin-top: 20px;
+  opacity: 0.75;
+  -webkit-animation: time 3600s linear infinite;
+  animation: time 3600s linear infinite;
+}
+
+.wrapper .container .clock .hour {
+  height: 60px;
+  margin-top: 40px;
+  -webkit-animation: time 43200s linear infinite;
+  animation: time 43200s linear infinite;
+}
+
+.wrapper .container .clock .indicator {
+  height: 98px;
+  border-top: 2px solid #4b9aaa;
+  background: none;
+}
+
+.wrapper .container .clock .indicator:nth-child(5n) {
+  opacity: 1;
+  height: 93px;
+  border-top: 7px solid #f4eed7;
+}
+
+.wrapper .container .clock .axis {
+  background: #4b9aaa;
+  width: 5px;
+  height: 5px;
+  border-radius: 3px;
+  position: absolute;
+  z-index: 4;
+  top: 97px;
+}
+
+.wrapper .container .clock .indicator:nth-child(5) {
+  -webkit-transform: rotateZ(calc(6deg * 5));
+  transform: rotateZ(calc(6deg * 5));
+}
+
+.wrapper .container .clock .indicator:nth-child(6) {
+  -webkit-transform: rotateZ(calc(6deg * 6));
+  transform: rotateZ(calc(6deg * 6));
+}
+
+.wrapper .container .clock .indicator:nth-child(7) {
+  -webkit-transform: rotateZ(calc(6deg * 7));
+  transform: rotateZ(calc(6deg * 7));
+}
+
+.wrapper .container .clock .indicator:nth-child(8) {
+  -webkit-transform: rotateZ(calc(6deg * 8));
+  transform: rotateZ(calc(6deg * 8));
+}
+
+.wrapper .container .clock .indicator:nth-child(9) {
+  -webkit-transform: rotateZ(calc(6deg * 9));
+  transform: rotateZ(calc(6deg * 9));
+}
+
+.wrapper .container .clock .indicator:nth-child(10) {
+  -webkit-transform: rotateZ(calc(6deg * 10));
+  transform: rotateZ(calc(6deg * 10));
+}
+
+.wrapper .container .clock .indicator:nth-child(11) {
+  -webkit-transform: rotateZ(calc(6deg * 11));
+  transform: rotateZ(calc(6deg * 11));
+}
+
+.wrapper .container .clock .indicator:nth-child(12) {
+  -webkit-transform: rotateZ(calc(6deg * 12));
+  transform: rotateZ(calc(6deg * 12));
+}
+
+.wrapper .container .clock .indicator:nth-child(13) {
+  -webkit-transform: rotateZ(calc(6deg * 13));
+  transform: rotateZ(calc(6deg * 13));
+}
+
+.wrapper .container .clock .indicator:nth-child(14) {
+  -webkit-transform: rotateZ(calc(6deg * 14));
+  transform: rotateZ(calc(6deg * 14));
+}
+
+.wrapper .container .clock .indicator:nth-child(15) {
+  -webkit-transform: rotateZ(calc(6deg * 15));
+  transform: rotateZ(calc(6deg * 15));
+}
+
+.wrapper .container .clock .indicator:nth-child(16) {
+  -webkit-transform: rotateZ(calc(6deg * 16));
+  transform: rotateZ(calc(6deg * 16));
+}
+
+.wrapper .container .clock .indicator:nth-child(17) {
+  -webkit-transform: rotateZ(calc(6deg * 17));
+  transform: rotateZ(calc(6deg * 17));
+}
+
+.wrapper .container .clock .indicator:nth-child(18) {
+  -webkit-transform: rotateZ(calc(6deg * 18));
+  transform: rotateZ(calc(6deg * 18));
+}
+
+.wrapper .container .clock .indicator:nth-child(19) {
+  -webkit-transform: rotateZ(calc(6deg * 19));
+  transform: rotateZ(calc(6deg * 19));
+}
+
+.wrapper .container .clock .indicator:nth-child(20) {
+  -webkit-transform: rotateZ(calc(6deg * 20));
+  transform: rotateZ(calc(6deg * 20));
+}
+
+.wrapper .container .clock .indicator:nth-child(21) {
+  -webkit-transform: rotateZ(calc(6deg * 21));
+  transform: rotateZ(calc(6deg * 21));
+}
+
+.wrapper .container .clock .indicator:nth-child(22) {
+  -webkit-transform: rotateZ(calc(6deg * 22));
+  transform: rotateZ(calc(6deg * 22));
+}
+
+.wrapper .container .clock .indicator:nth-child(23) {
+  -webkit-transform: rotateZ(calc(6deg * 23));
+  transform: rotateZ(calc(6deg * 23));
+}
+
+.wrapper .container .clock .indicator:nth-child(24) {
+  -webkit-transform: rotateZ(calc(6deg * 24));
+  transform: rotateZ(calc(6deg * 24));
+}
+
+.wrapper .container .clock .indicator:nth-child(25) {
+  -webkit-transform: rotateZ(calc(6deg * 25));
+  transform: rotateZ(calc(6deg * 25));
+}
+
+.wrapper .container .clock .indicator:nth-child(26) {
+  -webkit-transform: rotateZ(calc(6deg * 26));
+  transform: rotateZ(calc(6deg * 26));
+}
+
+.wrapper .container .clock .indicator:nth-child(27) {
+  -webkit-transform: rotateZ(calc(6deg * 27));
+  transform: rotateZ(calc(6deg * 27));
+}
+
+.wrapper .container .clock .indicator:nth-child(28) {
+  -webkit-transform: rotateZ(calc(6deg * 28));
+  transform: rotateZ(calc(6deg * 28));
+}
+
+.wrapper .container .clock .indicator:nth-child(29) {
+  -webkit-transform: rotateZ(calc(6deg * 29));
+  transform: rotateZ(calc(6deg * 29));
+}
+
+.wrapper .container .clock .indicator:nth-child(30) {
+  -webkit-transform: rotateZ(calc(6deg * 30));
+  transform: rotateZ(calc(6deg * 30));
+}
+
+.wrapper .container .clock .indicator:nth-child(31) {
+  -webkit-transform: rotateZ(calc(6deg * 31));
+  transform: rotateZ(calc(6deg * 31));
+}
+
+.wrapper .container .clock .indicator:nth-child(32) {
+  -webkit-transform: rotateZ(calc(6deg * 32));
+  transform: rotateZ(calc(6deg * 32));
+}
+
+.wrapper .container .clock .indicator:nth-child(33) {
+  -webkit-transform: rotateZ(calc(6deg * 33));
+  transform: rotateZ(calc(6deg * 33));
+}
+
+.wrapper .container .clock .indicator:nth-child(34) {
+  -webkit-transform: rotateZ(calc(6deg * 34));
+  transform: rotateZ(calc(6deg * 34));
+}
+
+.wrapper .container .clock .indicator:nth-child(35) {
+  -webkit-transform: rotateZ(calc(6deg * 35));
+  transform: rotateZ(calc(6deg * 35));
+}
+
+.wrapper .container .clock .indicator:nth-child(36) {
+  -webkit-transform: rotateZ(calc(6deg * 36));
+  transform: rotateZ(calc(6deg * 36));
+}
+
+.wrapper .container .clock .indicator:nth-child(37) {
+  -webkit-transform: rotateZ(calc(6deg * 37));
+  transform: rotateZ(calc(6deg * 37));
+}
+
+.wrapper .container .clock .indicator:nth-child(38) {
+  -webkit-transform: rotateZ(calc(6deg * 38));
+  transform: rotateZ(calc(6deg * 38));
+}
+
+.wrapper .container .clock .indicator:nth-child(39) {
+  -webkit-transform: rotateZ(calc(6deg * 39));
+  transform: rotateZ(calc(6deg * 39));
+}
+
+.wrapper .container .clock .indicator:nth-child(40) {
+  -webkit-transform: rotateZ(calc(6deg * 40));
+  transform: rotateZ(calc(6deg * 40));
+}
+
+.wrapper .container .clock .indicator:nth-child(41) {
+  -webkit-transform: rotateZ(calc(6deg * 41));
+  transform: rotateZ(calc(6deg * 41));
+}
+
+.wrapper .container .clock .indicator:nth-child(42) {
+  -webkit-transform: rotateZ(calc(6deg * 42));
+  transform: rotateZ(calc(6deg * 42));
+}
+
+.wrapper .container .clock .indicator:nth-child(43) {
+  -webkit-transform: rotateZ(calc(6deg * 43));
+  transform: rotateZ(calc(6deg * 43));
+}
+
+.wrapper .container .clock .indicator:nth-child(44) {
+  -webkit-transform: rotateZ(calc(6deg * 44));
+  transform: rotateZ(calc(6deg * 44));
+}
+
+.wrapper .container .clock .indicator:nth-child(45) {
+  -webkit-transform: rotateZ(calc(6deg * 45));
+  transform: rotateZ(calc(6deg * 45));
+}
+
+.wrapper .container .clock .indicator:nth-child(46) {
+  -webkit-transform: rotateZ(calc(6deg * 46));
+  transform: rotateZ(calc(6deg * 46));
+}
+
+.wrapper .container .clock .indicator:nth-child(47) {
+  -webkit-transform: rotateZ(calc(6deg * 47));
+  transform: rotateZ(calc(6deg * 47));
+}
+
+.wrapper .container .clock .indicator:nth-child(48) {
+  -webkit-transform: rotateZ(calc(6deg * 48));
+  transform: rotateZ(calc(6deg * 48));
+}
+
+.wrapper .container .clock .indicator:nth-child(49) {
+  -webkit-transform: rotateZ(calc(6deg * 49));
+  transform: rotateZ(calc(6deg * 49));
+}
+
+.wrapper .container .clock .indicator:nth-child(50) {
+  -webkit-transform: rotateZ(calc(6deg * 50));
+  transform: rotateZ(calc(6deg * 50));
+}
+
+.wrapper .container .clock .indicator:nth-child(51) {
+  -webkit-transform: rotateZ(calc(6deg * 51));
+  transform: rotateZ(calc(6deg * 51));
+}
+
+.wrapper .container .clock .indicator:nth-child(52) {
+  -webkit-transform: rotateZ(calc(6deg * 52));
+  transform: rotateZ(calc(6deg * 52));
+}
+
+.wrapper .container .clock .indicator:nth-child(53) {
+  -webkit-transform: rotateZ(calc(6deg * 53));
+  transform: rotateZ(calc(6deg * 53));
+}
+
+.wrapper .container .clock .indicator:nth-child(54) {
+  -webkit-transform: rotateZ(calc(6deg * 54));
+  transform: rotateZ(calc(6deg * 54));
+}
+
+.wrapper .container .clock .indicator:nth-child(55) {
+  -webkit-transform: rotateZ(calc(6deg * 55));
+  transform: rotateZ(calc(6deg * 55));
+}
+
+.wrapper .container .clock .indicator:nth-child(56) {
+  -webkit-transform: rotateZ(calc(6deg * 56));
+  transform: rotateZ(calc(6deg * 56));
+}
+
+.wrapper .container .clock .indicator:nth-child(57) {
+  -webkit-transform: rotateZ(calc(6deg * 57));
+  transform: rotateZ(calc(6deg * 57));
+}
+
+.wrapper .container .clock .indicator:nth-child(58) {
+  -webkit-transform: rotateZ(calc(6deg * 58));
+  transform: rotateZ(calc(6deg * 58));
+}
+
+.wrapper .container .clock .indicator:nth-child(59) {
+  -webkit-transform: rotateZ(calc(6deg * 59));
+  transform: rotateZ(calc(6deg * 59));
+}
+
+.wrapper .container .clock .indicator:nth-child(60) {
+  -webkit-transform: rotateZ(calc(6deg * 60));
+  transform: rotateZ(calc(6deg * 60));
+}
+
+.wrapper .container .clock .indicator:nth-child(61) {
+  -webkit-transform: rotateZ(calc(6deg * 61));
+  transform: rotateZ(calc(6deg * 61));
+}
+
+.wrapper .container .clock .indicator:nth-child(62) {
+  -webkit-transform: rotateZ(calc(6deg * 62));
+  transform: rotateZ(calc(6deg * 62));
+}
+
+.wrapper .container .clock .indicator:nth-child(63) {
+  -webkit-transform: rotateZ(calc(6deg * 63));
+  transform: rotateZ(calc(6deg * 63));
+}
+
+.wrapper .container .clock .indicator:nth-child(64) {
+  -webkit-transform: rotateZ(calc(6deg * 64));
+  transform: rotateZ(calc(6deg * 64));
+}
+
+.wrapper .container .clock .indicator:nth-child(65) {
+  -webkit-transform: rotateZ(calc(6deg * 65));
+  transform: rotateZ(calc(6deg * 65));
+}
+
+@-webkit-keyframes time {
+  to {
+    -webkit-transform: rotateZ(360deg);
+    transform: rotateZ(360deg);
+  }
+}
+
+@keyframes time {
+  to {
+    -webkit-transform: rotateZ(360deg);
+    transform: rotateZ(360deg);
+  }
+}
+/*# sourceMappingURL=style.css.map */
