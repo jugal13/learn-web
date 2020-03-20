@@ -1,5 +1,9 @@
 # HTML
 
+1. [HTML tags](learn_html_tags)
+2. [HTML5 tags](learn_html5_tags)
+3. [HTML Form tags](learn_html_forms)
+
 ## HTML_TAGS FOLDER
 
 HTML Page
