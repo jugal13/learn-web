@@ -119,6 +119,10 @@ function handleRestartGame() {
   currentPlayer = "X";
   gameCurrentState = ["", "", "", "", "", "", "", "", ""];
   gameStatus.innerHTML = currentPlayerTurn(player1Name);
+  player1Score = 0;
+  player2Score = 0;
+  player1DisplayScore.innerHTML = 0;
+  player2DisplayScore.innerHTML = 0;
   clearCells();
 }
 
