@@ -1,0 +1,58 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #111111;
+}
+
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+}
+
+.wrapper .container {
+  display: block;
+  margin: 45vh auto;
+  width: 400px;
+  background-color: #e1e1e1;
+  border-radius: 12px;
+}
+
+.wrapper .container .nav-list {
+  margin: 0;
+  padding: 10px 0px;
+}
+
+.wrapper .container .nav-list .navbar {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper .container .nav-list .navbar .icon-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper .container .nav-list .navbar .icon-list .icons {
+  margin: 0;
+  padding: 5px;
+  list-style-type: none;
+}
+
+.wrapper .container .nav-list .navbar .icon-list .icons .fa {
+  font-size: 20px;
+}
+
+.wrapper .container .nav-list .navbar .icon-list .icons .fa:hover {
+  color: #fb3958;
+}
+
+.wrapper .container .nav-list .navbar .icon-list .icons .active {
+  color: red;
+}
+/*# sourceMappingURL=style.css.map */
