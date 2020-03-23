@@ -42,7 +42,7 @@
 
 4. [MDN Docs HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML) - https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML
 
-5. [HTML - freeCodeCamp](https://www.youtube.com/watch?v=pQN-pnXPaVg) - https://www.youtube.com/watch?v=pQN-pnXPaVg
+5. [HTML - (freeCodeCamp)](https://www.youtube.com/watch?v=pQN-pnXPaVg) - https://www.youtube.com/watch?v=pQN-pnXPaVg
 
 6. [HTML for Beginners](https://www.youtube.com/watch?v=hrZqiCUx6kg) - https://www.youtube.com/watch?v=hrZqiCUx6kg
 
@@ -62,15 +62,15 @@
 
 3. [CSS MDN Docs](https://developer.mozilla.org/en-US/docs/Learn/CSS) - https://developer.mozilla.org/en-US/docs/Learn/CSS
 
-4. [CSS freeCodeCamp](https://www.youtube.com/watch?v=1Rs2ND1ryYc) - https://www.youtube.com/watch?v=1Rs2ND1ryYc
+4. [CSS (freeCodeCamp)](https://www.youtube.com/watch?v=1Rs2ND1ryYc) - https://www.youtube.com/watch?v=1Rs2ND1ryYc
 
 5. [CSS Tutorialspoint](https://www.tutorialspoint.com/css/index.htm) - https://www.tutorialspoint.com/css/index.htm
 
-6. [CSS Selectors freeCodeCamp](https://www.freecodecamp.org/news/get-started-with-css-in-5-minutes-e0804813fc3e/) - https://www.freecodecamp.org/news/get-started-with-css-in-5-minutes-e0804813fc3e/
+6. [CSS Selectors (freeCodeCamp)](https://www.freecodecamp.org/news/get-started-with-css-in-5-minutes-e0804813fc3e/) - https://www.freecodecamp.org/news/get-started-with-css-in-5-minutes-e0804813fc3e/
 
 7. [CSS3 Course on Coursera](https://www.coursera.org/learn/introcss#syllabus) - https://www.coursera.org/learn/introcss#syllabus
 
-8. [CSS Course freeCodeCamp](https://www.freecodecamp.org/news/want-to-learn-css-heres-our-free-20-part-course-9fb3dcb0a971/) - https://www.freecodecamp.org/news/want-to-learn-css-heres-our-free-20-part-course-9fb3dcb0a971/
+8. [CSS Course (freeCodeCamp)](https://www.freecodecamp.org/news/want-to-learn-css-heres-our-free-20-part-course-9fb3dcb0a971/) - https://www.freecodecamp.org/news/want-to-learn-css-heres-our-free-20-part-course-9fb3dcb0a971/
 
 9. [CSS Box Model CSS-Tricks](https://css-tricks.com/the-css-box-model/) - https://css-tricks.com/the-css-box-model/
 
@@ -86,7 +86,7 @@
 
 15. [CSS Grid](https://css-tricks.com/snippets/css/complete-guide-grid/) - https://css-tricks.com/snippets/css/complete-guide-grid/
 
-16. [CSS Grid freeCodeCamp](https://www.youtube.com/watch?v=t6CBKf8K_Ac) - https://www.youtube.com/watch?v=t6CBKf8K_Ac
+16. [CSS Grid (freeCodeCamp)](https://www.youtube.com/watch?v=t6CBKf8K_Ac) - https://www.youtube.com/watch?v=t6CBKf8K_Ac
 
 17. [Grid Template Areas](https://www.youtube.com/watch?v=qTGbWfEEnKI) - https://www.youtube.com/watch?v=qTGbWfEEnKI
 
@@ -106,9 +106,9 @@
 
 3. [TutorialsPoint Tutorial](https://www.tutorialspoint.com/bootstrap/index.htm) - https://www.tutorialspoint.com/bootstrap/index.htm
 
-4. [FreeCodeCamp Tutorial](https://www.freecodecamp.org/news/learn-bootstrap-4-in-30-minute-by-building-a-landing-page-website-guide-for-beginners-f64e03833f33/) - https://www.freecodecamp.org/news/learn-bootstrap-4-in-30-minute-by-building-a-landing-page-website-guide-for-beginners-f64e03833f33/
+4. [(freeCodeCamp) Tutorial](https://www.freecodecamp.org/news/learn-bootstrap-4-in-30-minute-by-building-a-landing-page-website-guide-for-beginners-f64e03833f33/) - https://www.freecodecamp.org/news/learn-bootstrap-4-in-30-minute-by-building-a-landing-page-website-guide-for-beginners-f64e03833f33/
 
-5. [FreeCodeCamp Tutorial 2](https://www.freecodecamp.org/news/building-your-first-bootstrap-4-0-site-b54bbff6bc55/) - https://www.freecodecamp.org/news/building-your-first-bootstrap-4-0-site-b54bbff6bc55/
+5. [(freeCodeCamp) Tutorial 2](https://www.freecodecamp.org/news/building-your-first-bootstrap-4-0-site-b54bbff6bc55/) - https://www.freecodecamp.org/news/building-your-first-bootstrap-4-0-site-b54bbff6bc55/
 
 6. [Bootstrap Portfolio Tutorial](https://www.youtube.com/watch?v=dgKSqz3it50) - https://www.youtube.com/watch?v=dgKSqz3it50
 
@@ -124,7 +124,7 @@
 
 2. [TutorialsPoint Tutorial](https://www.tutorialspoint.com/foundation/index.htm) - https://www.tutorialspoint.com/foundation/index.htm
 
-3. [Crash Course FreeCodeCamp](https://www.youtube.com/watch?v=_drzb7j9Bg4) - https://www.youtube.com/watch?v=_drzb7j9Bg4
+3. [Crash Course (freeCodeCamp)](https://www.youtube.com/watch?v=_drzb7j9Bg4) - https://www.youtube.com/watch?v=_drzb7j9Bg4
 
 4. [Foundation CSS Tutorial](https://www.youtube.com/playlist?list=PLJVWPVPk_D_28kxyWio274KvIImcRNbjl) - https://www.youtube.com/playlist?list=PLJVWPVPk_D_28kxyWio274KvIImcRNbjl
 
@@ -132,7 +132,7 @@
 
 1. [Documentation](https://bulma.io/documentation/) - https://bulma.io/documentation/
 
-2. [Tutorial FreeCodeCamp](https://www.youtube.com/watch?v=LBzZLzu2GKo) - https://www.youtube.com/watch?v=LBzZLzu2GKo
+2. [Tutorial (freeCodeCamp)](https://www.youtube.com/watch?v=LBzZLzu2GKo) - https://www.youtube.com/watch?v=LBzZLzu2GKo
 
 3. [Pretty Printed Tutorial](https://www.youtube.com/watch?v=I8ezFcJ6AeM) - https://www.youtube.com/watch?v=I8ezFcJ6AeM
 
@@ -162,23 +162,61 @@
 
 2. [Crash Course](https://www.youtube.com/watch?v=roywYSEPSvc&t=325s) - https://www.youtube.com/watch?v=roywYSEPSvc&t=325s
 
-3. [SASS Crash Course FreeCodeCamp](https://www.youtube.com/watch?v=_a5j7KoflTs) - https://www.youtube.com/watch?v=_a5j7KoflTs
+3. [SASS Crash Course (freeCodeCamp)](https://www.youtube.com/watch?v=_a5j7KoflTs) - https://www.youtube.com/watch?v=_a5j7KoflTs
 
 ## JS
 
 1. [JavaScript Tutorial W3Schools](https://www.w3schools.com/js/) - https://www.w3schools.com/js/
 
-2.
+2. [Tutorials Point Javascript](https://www.tutorialspoint.com/javascript/index.htm) - https://www.tutorialspoint.com/javascript/index.htm
+
+3. [JS Tutorials (GeeksforGeeks)](https://www.geeksforgeeks.org/javascript-tutorial/) - https://www.geeksforgeeks.org/javascript-tutorial/
+
+4. [JS Crash Course (freeCodeCampe)](https://www.youtube.com/watch?v=PkZNo7MFNFg) - https://www.youtube.com/watch?v=PkZNo7MFNFg
+
+5. [Basic JavaScript Course (freeCodeCamp)](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/) - https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/
+
+6. [ES6 JS Course (freeCodeCamp)](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/es6/) - https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/es6/
+
+7. [Scopes & Closures (CSS-Tricks)](https://css-tricks.com/javascript-scope-closures/) - https://css-tricks.com/javascript-scope-closures/
+
+8. [Scopes & Closures](https://tylermcginnis.com/ultimate-guide-to-execution-contexts-hoisting-scopes-and-closures-in-javascript/) - https://tylermcginnis.com/ultimate-guide-to-execution-contexts-hoisting-scopes-and-closures-in-javascript/
+
+9. [IIFE](https://www.youtube.com/watch?v=3cbiZV4H22c) - https://www.youtube.com/watch?v=3cbiZV4H22c
+
+10. [Event Loop](https://dev.to/lydiahallie/javascript-visualized-event-loop-3dif) - https://dev.to/lydiahallie/javascript-visualized-event-loop-3dif
+
+11. [Hoisting](https://dev.to/lydiahallie/javascript-visualized-hoisting-478h) - https://dev.to/lydiahallie/javascript-visualized-hoisting-478h
+
+12. [Scope](https://dev.to/lydiahallie/javascript-visualized-scope-chain-13pd) - https://dev.to/lydiahallie/javascript-visualized-scope-chain-13pd
+
+13. [JS Engine](https://dev.to/lydiahallie/javascript-visualized-the-javascript-engine-4cdf) - https://dev.to/lydiahallie/javascript-visualized-the-javascript-engine-4cdf
+
+14. [Prototypes](https://dev.to/lydiahallie/javascript-visualized-prototypal-inheritance-47co) - https://dev.to/lydiahallie/javascript-visualized-prototypal-inheritance-47co
+
+15. [Binding & THIS](https://www.youtube.com/watch?v=eOI9GzMfd24) - https://www.youtube.com/watch?v=eOI9GzMfd24
+
+16. [Promises](https://www.youtube.com/watch?v=IGYxfTTpoFg&list=PLWKjhJtqVAbk2qRZtWSzCIN38JC_NdhW5&index=30&t=0s) - https://www.youtube.com/watch?v=IGYxfTTpoFg&list=PLWKjhJtqVAbk2qRZtWSzCIN38JC_NdhW5&index=30&t=0s
+
+17. [JS Basic Course](https://www.youtube.com/playlist?list=PLWKjhJtqVAbk2qRZtWSzCIN38JC_NdhW5) - https://www.youtube.com/playlist?list=PLWKjhJtqVAbk2qRZtWSzCIN38JC_NdhW5
+
+18. [ES6 Tutorials](https://www.youtube.com/playlist?list=PLWKjhJtqVAbljtmmeS0c-CEl2LdE-eR_F) - https://www.youtube.com/playlist?list=PLWKjhJtqVAbljtmmeS0c-CEl2LdE-eR_F
+
+19. [Async JS](https://medium.com/better-programming/is-javascript-synchronous-or-asynchronous-what-the-hell-is-a-promise-7aa9dd8f3bfb) - https://medium.com/better-programming/is-javascript-synchronous-or-asynchronous-what-the-hell-is-a-promise-7aa9dd8f3bfb
+
+20. [Why Async/Await over Promises](https://hackernoon.com/6-reasons-why-javascripts-async-await-blows-promises-away-tutorial-c7ec10518dd9) - https://hackernoon.com/6-reasons-why-javascripts-async-await-blows-promises-away-tutorial-c7ec10518dd9
+
+21. [Async JS Crash Course](https://www.youtube.com/watch?v=PoRJizFvM7s) - https://www.youtube.com/watch?v=PoRJizFvM7s
 
 ## HTML & CSS
 
-1. [HTML & CSS freeCodeCamp](https://www.youtube.com/watch?v=mU6anWqZJcc) - https://www.youtube.com/watch?v=mU6anWqZJcc
+1. [HTML & CSS (freeCodeCamp)](https://www.youtube.com/watch?v=mU6anWqZJcc) - https://www.youtube.com/watch?v=mU6anWqZJcc
 
 2. [Intro to HTML & CSS Khan Academy](https://www.khanacademy.org/computing/computer-programming/html-css) - https://www.khanacademy.org/computing/computer-programming/html-css
 
 3. [Just Starting with CSS and HTML CSS-Tricks](https://css-tricks.com/guides/beginner/) - https://css-tricks.com/guides/beginner/
 
-4. [HTML & CSS Crash Course](https://www.youtube.com/watch?v=8gNrZ4lAnAw&t=58s) - https://www.youtube.com/watch?v=8gNrZ4lAnAw&t=58s
+4. [HTML & CSS Crash Course(DesignCourse)](https://www.youtube.com/watch?v=8gNrZ4lAnAw&t=58s) - https://www.youtube.com/watch?v=8gNrZ4lAnAw&t=58s
 
 ## HTML CSS & JS
 
@@ -186,11 +224,11 @@
 
 ## Webpack
 
-1. [Webpack Tutorial Design Course](https://www.youtube.com/watch?v=TzdEpgONurw&t=491s) - https://www.youtube.com/watch?v=TzdEpgONurw&t=491s
+1. [Webpack Tutorial (DesignCourse)](https://www.youtube.com/watch?v=TzdEpgONurw&t=491s) - https://www.youtube.com/watch?v=TzdEpgONurw&t=491s
 
 ## Parcel
 
-1. [Parcel Tutorial Design Course](https://www.youtube.com/watch?v=OK6akGZCC88) - https://www.youtube.com/watch?v=OK6akGZCC88
+1. [Parcel Tutorial (DesignCourse)](https://www.youtube.com/watch?v=OK6akGZCC88) - https://www.youtube.com/watch?v=OK6akGZCC88
 
 ## Angular
 
@@ -208,23 +246,73 @@
 
 7. [Angular Console](https://www.youtube.com/watch?v=6UcPiTjB9-E&t=132s) - https://www.youtube.com/watch?v=6UcPiTjB9-E&t=132s
 
-## Vuejs
+8. [Documentation](https://angular.io) - https://angular.io
 
-1. [Crash Course](https://www.youtube.com/watch?v=78tNYZUS-ps) - https://www.youtube.com/watch?v=78tNYZUS-ps
+9. [Angular Crash Course (freeCodeCamp)](https://www.youtube.com/watch?v=2OHbjep_WjQ) - https://www.youtube.com/watch?v=2OHbjep_WjQ
 
-2. [SEO](https://www.youtube.com/watch?v=pwHdFPEX4NA) - https://www.youtube.com/watch?v=pwHdFPEX4NA
+10. [Angular Material Documentation](https://material.angular.io) - https://material.angular.io
 
-3. [Router Animations](https://www.youtube.com/watch?v=0aG2hhvS1sM) - https://www.youtube.com/watch?v=0aG2hhvS1sM
+11. [Angular Material Tutorial (freeCodeCamp)](https://www.youtube.com/watch?v=jUfEn032IL8) - https://www.youtube.com/watch?v=jUfEn032IL8
 
-4. [Vuex](https://www.youtube.com/watch?v=ZSexhaiMKJE) - https://www.youtube.com/watch?v=ZSexhaiMKJE
+12. [Getting Started Angular Material](https://www.youtube.com/watch?v=Fcr-gM-QThc) - https://www.youtube.com/watch?v=Fcr-gM-QThc
 
-5. [VueUI](https://www.youtube.com/watch?v=-y5xYznyQ1A) - https://www.youtube.com/watch?v=-y5xYznyQ1A
+13. [Angular Flex-Layout](https://alligator.io/angular/flex-layout/) - https://alligator.io/angular/flex-layout/
 
-6. [VuePress Tutorial](https://www.youtube.com/watch?v=5Kqyhu_eIcw) - https://www.youtube.com/watch?v=5Kqyhu_eIcw
+14. [Angular Flex & Grid using Flex-Layout](https://medium.com/angular-in-depth/angular-flex-layout-flexbox-and-grid-layout-for-angular-component-6e7c24457b63) - https://medium.com/angular-in-depth/angular-flex-layout-flexbox-and-grid-layout-for-angular-component-6e7c24457b63
 
-7. [Nuxtjs](https://www.youtube.com/watch?v=IkrbIFZz_IM) - https://www.youtube.com/watch?v=IkrbIFZz_IM
+15. [Angular Material & Flex-layout](https://medium.com/letsboot/quick-start-with-angular-material-and-flex-layout-1b065aa1476c) - https://medium.com/letsboot/quick-start-with-angular-material-and-flex-layout-1b065aa1476c 
 
-8.
+16. [Angular + Firebase](https://github.com/jugalw13/To-do-list-firebase) - https://github.com/jugalw13/To-do-list-firebase
+
+## Vuejs, Nuxtjs & Vuetifyjs
+
+1. [Documentation](https://vuejs.org) - https://vuejs.org
+
+2. [VueUI](https://www.youtube.com/watch?v=-y5xYznyQ1A) - https://www.youtube.com/watch?v=-y5xYznyQ1A
+
+3. [VueX](https://vuex.vuejs.org) - https://vuex.vuejs.org
+
+4. [Vue-Router](https://router.vuejs.org) - https://router.vuejs.org
+
+5. [Vuetifyjs](https://vuetifyjs.com/en/) - https://vuetifyjs.com/en/
+
+6. [Bootstrap-Vue](https://bootstrap-vue.js.org) - https://bootstrap-vue.js.org
+
+7. [Vuejs (W3Schools)](https://www.w3schools.com/whatis/whatis_vue.asp) - https://www.w3schools.com/whatis/whatis_vue.asp
+
+8. [Crash Course (freeCodeCamp)](https://www.youtube.com/watch?v=4deVCNJq3qc) - https://www.youtube.com/watch?v=4deVCNJq3qc
+
+9. [Crash Course (DesignCourse)](https://www.youtube.com/watch?v=78tNYZUS-ps) - https://www.youtube.com/watch?v=78tNYZUS-ps
+
+10. [SEO](https://www.youtube.com/watch?v=pwHdFPEX4NA) - https://www.youtube.com/watch?v=pwHdFPEX4NA
+
+11. [Router Animations](https://www.youtube.com/watch?v=0aG2hhvS1sM) - https://www.youtube.com/watch?v=0aG2hhvS1sM
+
+12. [Vuex](https://www.youtube.com/watch?v=ZSexhaiMKJE) - https://www.youtube.com/watch?v=ZSexhaiMKJE
+
+13. [Vuetify Getting Started](https://medium.com/vue-mastery/getting-started-with-vuetify-2-0-522ad3a55154) - https://medium.com/vue-mastery/getting-started-with-vuetify-2-0-522ad3a55154
+
+14. [Vuex made simple — getting started!](https://itnext.io/vuex-made-simple-getting-started-6bf229d432cf) - https://itnext.io/vuex-made-simple-getting-started-6bf229d432cf
+
+15. [Mastering Vuex](https://medium.com/dailyjs/mastering-vuex-zero-to-hero-e0ca1f421d45) - https://medium.com/dailyjs/mastering-vuex-zero-to-hero-e0ca1f421d45
+
+16. [Vuex and Vue — Bread and Butter](https://medium.com/js-dojo/vuex-and-vue-bread-and-butter-4519a21e95ce) - https://medium.com/js-dojo/vuex-and-vue-bread-and-butter-4519a21e95ce
+
+17. [State Management in Vue: Getting Started with Vuex](https://scotch.io/tutorials/state-management-in-vue-getting-started-with-vue) - https://scotch.io/tutorials/state-management-in-vue-getting-started-with-vue
+
+18. [Vuejs, Vuex, Vuetify & Firebase](https://www.freecodecamp.org/news/how-to-build-a-single-page-application-using-vue-js-vuex-vuetify-and-firebase-838b40721a07/) - https://www.freecodecamp.org/news/how-to-build-a-single-page-application-using-vue-js-vuex-vuetify-and-firebase-838b40721a07/
+
+19. [Nuxtjs](https://www.youtube.com/watch?v=IkrbIFZz_IM) - https://www.youtube.com/watch?v=IkrbIFZz_IM
+
+20. [Crash Course Nuxtjs](https://www.youtube.com/watch?v=ltzlhAxJr74) - https://www.youtube.com/watch?v=ltzlhAxJr74
+
+21. [Nuxtjs Tutorial](https://medium.com/vue-mastery/free-nuxt-js-tutorial-creating-an-app-1a531bc6045) - https://medium.com/vue-mastery/free-nuxt-js-tutorial-creating-an-app-1a531bc6045
+
+21. [VuePress Tutorial](https://www.youtube.com/watch?v=5Kqyhu_eIcw) - https://www.youtube.com/watch?v=5Kqyhu_eIcw
+
+22. [Intro to VuePress](https://alligator.io/vuejs/vuepress-introduction/) - https://alligator.io/vuejs/vuepress-introduction/
+
+23. [Gridsome](https://gridsome.org) - https://gridsome.org 
 
 ## Angular vs React vs Vue
 
