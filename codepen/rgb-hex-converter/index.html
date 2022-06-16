@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <div class="card">
+          <div class="select-colors">
+            <div class="color-item">
+              <label for="red" class="red">Red</label>
+              <input
+                type="range"
+                name="red"
+                id="red"
+                min="0"
+                max="255"
+                value="0"
+              />
+            </div>
+            <div class="color-item">
+              <label for="green" class="green">Green</label>
+              <input
+                type="range"
+                name="green"
+                id="green"
+                min="0"
+                max="255"
+                value="0"
+              />
+            </div>
+            <div class="color-item">
+              <label for="blue" class="blue">Blue</label>
+              <input
+                type="range"
+                name="blue"
+                id="blue"
+                min="0"
+                max="255"
+                value="0"
+              />
+            </div>
+            <div class="color-item">
+              <label for="opacity">Opacity</label>
+              <input
+                type="range"
+                name="opacity"
+                id="opacity"
+                min="0"
+                max="255"
+                value="255"
+              />
+            </div>
+          </div>
+          <div class="hex-color">
+            <div id="result-color"></div>
+            <div class="result-hex" id="result-hex">
+              #000000FF
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

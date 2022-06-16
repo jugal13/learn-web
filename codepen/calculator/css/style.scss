@@ -1,0 +1,115 @@
+html,
+body {
+  height: 100vh;
+  width: 100vw;
+  padding: 0;
+  margin: 0;
+  background-color: #111111;
+}
+
+.wrapper {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .container {
+    align-self: center;
+
+    .card {
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      -webkit-box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.75);
+      -moz-box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.75);
+      box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.75);
+
+      .result {
+        width: 280px;
+        height: 75px;
+        padding: 5px 10px;
+        margin: 5px 10px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        align-content: flex-end;
+
+        .res-content {
+          color: white;
+          font-size: 2.5em;
+        }
+      }
+
+      .row {
+        align-self: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .btn {
+          align-self: center;
+          width: 75px;
+          height: 75px;
+          margin: 5px;
+          border-radius: 50%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          .content {
+            align-self: center;
+            color: white;
+            font-size: 1.5em;
+          }
+        }
+
+        .btn2 {
+          align-self: center;
+          width: 160px;
+          height: 75px;
+          margin: 5px;
+          border-radius: 100px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          .content {
+            align-self: center;
+            color: white;
+            font-size: 1.5em;
+          }
+        }
+
+        .btn-lightgrey {
+          background-color: #666666;
+
+          &:hover {
+            background-color: #888888;
+          }
+        }
+
+        .btn-darkgrey {
+          background-color: #222222;
+          
+          &:hover {
+            background-color: #333333;
+          }
+        }
+
+        .btn-orange {
+          background-color: orange;
+          
+          &:hover {
+            background-color: white;
+
+            .content {
+              color: orange;
+            }
+          }
+        }
+      }
+    }
+  }
+}

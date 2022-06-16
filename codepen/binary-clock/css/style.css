@@ -1,0 +1,128 @@
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  background-color: #111111;
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+}
+
+.wrapper .container {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.wrapper .container .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px;
+  margin: 10px;
+  -webkit-box-shadow: 0px 0px 10px 0px black;
+  box-shadow: 0px 0px 10px 0px black;
+}
+
+.wrapper .container .card .digital-clock {
+  color: #17d4feff;
+  padding: 5px;
+}
+
+.wrapper .container .card .digital-clock .digital-hour,
+.wrapper .container .card .digital-clock .digital-minute,
+.wrapper .container .card .digital-clock .digital-second {
+  font-size: 3em;
+}
+
+.wrapper .container .card .digital-clock .digital-separator {
+  font-size: 3em;
+  -webkit-animation: blinker 1s ease-in infinite;
+          animation: blinker 1s ease-in infinite;
+}
+
+.wrapper .container .card .binary-clock {
+  color: #17d4feff;
+  font-size: 1.25em;
+  padding: 5px;
+}
+
+.wrapper .container .card .binary-clock .binary-hour,
+.wrapper .container .card .binary-clock .binary-minute,
+.wrapper .container .card .binary-clock .binary-second {
+  -webkit-box-shadow: 0px 0px 10px 0px black;
+  box-shadow: 0px 0px 10px 0px black;
+  padding: 5px;
+  margin: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 400;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wrapper .container .card .binary-clock .binary-hour:hover,
+.wrapper .container .card .binary-clock .binary-minute:hover,
+.wrapper .container .card .binary-clock .binary-second:hover {
+  -webkit-box-shadow: 0px 0px 20px 0px black;
+  box-shadow: 0px 0px 20px 0px black;
+}
+
+.wrapper .container .card .binary-clock .binary-hour .bin,
+.wrapper .container .card .binary-clock .binary-minute .bin,
+.wrapper .container .card .binary-clock .binary-second .bin {
+  margin: 10px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+@-webkit-keyframes blinker {
+  0% {
+    color: #17d4fe00;
+  }
+  50% {
+    color: #17d4feff;
+  }
+  100% {
+    color: #17d4fe00;
+  }
+}
+
+@keyframes blinker {
+  0% {
+    color: #17d4fe00;
+  }
+  50% {
+    color: #17d4feff;
+  }
+  100% {
+    color: #17d4fe00;
+  }
+}
+/*# sourceMappingURL=style.css.map */

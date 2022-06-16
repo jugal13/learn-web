@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="./main.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <h1 class="title">Computer memory size converter</h1>
+        <form>
+          <div class="input">
+            <input list="in-type" id="input-type" />
+            <datalist id="in-type">
+              <option value="Bit">Bit</option>
+              <option value="Byte">Byte</option>
+              <option value="Kilobyte">Kilobyte(KB)</option>
+              <option value="Megabyte">Megabyte(MB)</option>
+              <option value="Gigabyte">Gigabyte(GB)</option>
+              <option value="Terabyte">Terabyte</option>
+            </datalist>
+            <input type="number" id="input-value" />
+            <input list="out-type" id="output-type" />
+            <datalist id="out-type">
+              <option value="Bit">Bit</option>
+              <option value="Byte">Byte</option>
+              <option value="Kilobyte">Kilobyte(KB)</option>
+              <option value="Megabyte">Megabyte(MB)</option>
+              <option value="Gigabyte">Gigabyte(GB)</option>
+              <option value="Terabyte">Terabyte</option>
+            </datalist>
+          </div>
+          <div class="output">
+            Output: <output type="number" id="output-value"></output>
+          </div>
+          <button type="button" id="coversion-form">Convert</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

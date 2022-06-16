@@ -1,0 +1,110 @@
+@mixin loadIndicator {
+  @for $i from 5 through 65 {
+    .indicator:nth-child(#{$i}) {
+      -webkit-transform: rotateZ(calc(6deg * #{$i}));
+      transform: rotateZ(calc(6deg * #{$i}));
+    }
+  }
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background-color: black;
+  height: 100vh;
+}
+.wrapper {
+  height: 100%;
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+
+    .clock {
+      align-self: center;
+      height: 200px;
+      width: 200px;
+      border-radius: 100px;
+      display: flex;
+      justify-content: center;
+      position: relative;
+
+      .second,
+      .minute,
+      .hour,
+      .indicator {
+        position: absolute;
+        left: calc(50% - 1px);
+        width: 2px;
+        background: #f4eed7;
+        -webkit-transform-origin: bottom center;
+        transform-origin: bottom center;
+        z-index: 2;
+        border-radius: 1px;
+      }
+
+      .second {
+        height: 90px;
+        margin-top: 10px;
+        background: #4b9aaa;
+        -webkit-animation: time 60s infinite steps(60);
+        animation: time 60s infinite steps(60);
+        z-index: 3;
+      }
+
+      .minute {
+        height: 80px;
+        margin-top: 20px;
+        opacity: 0.75;
+        -webkit-animation: time 3600s linear infinite;
+        animation: time 3600s linear infinite;
+      }
+
+      .hour {
+        height: 60px;
+        margin-top: 40px;
+        -webkit-animation: time 43200s linear infinite;
+        animation: time 43200s linear infinite;
+      }
+
+      .indicator {
+        height: 98px;
+        border-top: 2px solid #4b9aaa;
+        background: none;
+      }
+
+      .indicator:nth-child(5n) {
+        opacity: 1;
+        height: 93px;
+        border-top: 7px solid #f4eed7;
+      }
+
+      .axis {
+        background: #4b9aaa;
+        width: 5px;
+        height: 5px;
+        border-radius: 3px;
+        position: absolute;
+        z-index: 4;
+        top: 97px;
+      }
+
+      @include loadIndicator;
+    }
+  }
+}
+@-webkit-keyframes time {
+  to {
+    -webkit-transform: rotateZ(360deg);
+    transform: rotateZ(360deg);
+  }
+}
+
+@keyframes time {
+  to {
+    -webkit-transform: rotateZ(360deg);
+    transform: rotateZ(360deg);
+  }
+}

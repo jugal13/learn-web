@@ -1,0 +1,78 @@
+html,
+body {
+  height: 100vh;
+  width: 100vw;
+  padding: 0;
+  margin: 0;
+  background-color: #111111;
+}
+
+.wrapper {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wrapper .container {
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin: 10px;
+  -webkit-box-shadow: 0px 0px 10px 0px black;
+  box-shadow: 0px 0px 10px 0px black;
+}
+
+.wrapper .container .title {
+  font-size: 30px;
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+.wrapper .container .input {
+  font-size: 20px;
+  margin: 10px;
+  padding: 20px;
+}
+
+.wrapper .container .input input {
+  margin: 10px;
+  padding: 10px 3px 2px;
+  width: 91.87%;
+  background-color: #111111;
+  border: none;
+  border-bottom: 2px solid white;
+  color: white;
+  font-size: 0.8em;
+}
+
+.wrapper .container .output {
+  font-size: 30px;
+  font-weight: bold;
+  padding: 20px;
+}
+
+.wrapper .container button {
+  width: 80%;
+  border: none;
+  padding: 8px;
+  border: 1px solid #bfbfbf;
+  background-color: white;
+  -webkit-box-shadow: 3px 3px 5px #aaaaaa;
+          box-shadow: 3px 3px 5px #aaaaaa;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.wrapper .container button:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+/*# sourceMappingURL=style.css.map */

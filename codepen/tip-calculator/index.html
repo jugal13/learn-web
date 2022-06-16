@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="main.js"></script>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="container">
+      <h2 class="sec-head">Tip Calculator</h2>
+      <form name="tipcalc" id="tipcalc">
+        <div class="form-group">
+          <div class="label">
+            <label for="amount">Bill Amount:</label>
+          </div>
+          <input type="text" id="amount" />
+        </div>
+        <div class="form-group">
+          <div class="label">
+            <label for="tip">Tip Percentage:</label>
+          </div>
+          <input type="number" id="tip" min="0" max="100" value="0" />
+        </div>
+        <div class="form-group">
+          <div class="label">
+            <label for="split">How many people sharing the big:</label>
+          </div>
+          <input type="number" id="split" min="1" value="1" />
+        </div>
+        <div class="form-group">
+          <button type="button" 
+          onclick="calculateTip()">Calculate</button>
+        </div>
+        <output name="result" id="result"></output>
+      </form>
+    </div>
+  </div>
+</body>
+</html>

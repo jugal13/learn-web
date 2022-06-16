@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="wrapper">
+    <div class="carousel">
+      <div class="container">
+        <div class="left-button" onclick="slideLeft()"></div>
+        <div class="carousel-list">
+          <div class="carousel-item item1 active"></div>
+          <div class="carousel-item item2"></div>
+          <div class="carousel-item item3"></div>
+        </div>
+        <div class="right-button" onclick="slideRight()"></div>
+        <div class="carousel-indicator">
+          <div class="indicator">
+            <div class="dot active" onclick="ChangeSlide(1)"></div>
+            <div class="dot" onclick="ChangeSlide(2)"></div>
+            <div class="dot" onclick="ChangeSlide(3)"></div>
+          </div>
+        </div>
+      </div> 
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>

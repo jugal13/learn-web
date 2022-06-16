@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css"/>
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <div class="card">
+          <form name="tempconverter" id="tempconvertor">
+            <div class="form-group">
+              <label for="temperature">Temperature</label>
+              <input type="number" id="temperature" name="temperature" />
+            </div>
+            <div class="form-group">
+              <label for="unit">Unit of Temperature</label>
+              <input list="templist" id="scale"/>
+              <datalist id="templist">
+                <option value="Celsius">°C</option>
+                <option value="Fahrenheit">°F</option>
+                <option value="Kelvin">K</option>
+                <option value="Rankine">°R</option>
+              </datalist>
+            </div>
+            <div class="form-group">
+              <button type="button" onclick="convert('Celsius')">Celsius</button>
+              <button type="button" onclick="convert('Fahrenheit')">Fahrenheit</button>
+              <button type="button" onclick="convert('Kelvin')">Kelvin</button>
+              <button type="button" onclick="convert('Rankine')">Rankine</button>
+            </div>
+            <div class="out">
+              Output: <output name="result" id="result"></output>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

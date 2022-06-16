@@ -1,0 +1,57 @@
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+}
+
+.wrapper .container {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  display: block;
+  margin: 0 auto;
+}
+
+.wrapper .container .digital-clock, .wrapper .container .hour, .wrapper .container .minute, .wrapper .container .second, .wrapper .container .aptime {
+  color: #17D4FEff;
+  font-size: 4em;
+}
+
+.wrapper .container .separator {
+  font-size: 4em;
+  -webkit-animation: blinker 1s ease-in infinite;
+          animation: blinker 1s ease-in infinite;
+}
+
+@-webkit-keyframes blinker {
+  0% {
+    color: #17d4fe00;
+  }
+  50% {
+    color: #17d4feff;
+  }
+  100% {
+    color: #17d4fe00;
+  }
+}
+
+@keyframes blinker {
+  0% {
+    color: #17d4fe00;
+  }
+  50% {
+    color: #17d4feff;
+  }
+  100% {
+    color: #17d4fe00;
+  }
+}
+/*# sourceMappingURL=style.css.map */
